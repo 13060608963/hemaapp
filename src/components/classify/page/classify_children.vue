@@ -2,7 +2,10 @@
     <div>
         <div class="nav_top">
             {{title}}
-        </div>   
+        </div>
+        <div class="contet_item">
+
+        </div>  
     </div>
 </template>
 <script>
@@ -21,6 +24,10 @@ export default {
 }
 </script>
 <style scoped>
+.contet_item{
+height: 10rem;
+background: red;
+}
 .nav_top{
     width: 100%;
     height: 0.5rem;
